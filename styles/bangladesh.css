@@ -187,41 +187,23 @@ header{
 /* donate section */
 .donate-taka{
     display: flex;
-    justify-content: space-around;
-}
-.taka-200{
-    /* box-shadow: rgba(198, 228, 214, 1); */
-    background-color: rgba(198, 228, 214, 1);
-    border-radius: 10px;
-    padding: 20px;
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 24px;
-    font-weight: bold;
-}
-.taka{
-    border-radius: 10px;
-    padding: 20px;
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 24px;
-    font-weight: bold;
-    background-color: rgb(225, 218, 218);
-    margin: 0 150px;
-    border-radius: 10px;
+    justify-content: center;
+    gap: 50px;
 }
 .donate{
-    /* box-shadow: rgba(255, 255, 255, 0.2); */
     background-color: whitesmoke;
-    margin: 50px 250px;
+    margin: 50px 200px;
 }
 .donate-title{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    padding: 30px;
 }
 .donate-description{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
-    /* margin: 50px 250px; */
+    margin: 20px 100px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -233,4 +215,24 @@ header{
 
 .donate-button{
     text-align: center;
+    margin-bottom: 50px;
+}
+.taka-button{
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: rgba(14, 14, 14, 0.15);
+}
+.taka-button-200{
+    background-color: rgba(198, 228, 214, 1);
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-width: 0.5px;
+    border-color: rgba(14, 14, 14, 0.15);
 }
