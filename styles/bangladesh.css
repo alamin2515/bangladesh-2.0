@@ -236,3 +236,32 @@ header{
     border-width: 0.5px;
     border-color: rgba(14, 14, 14, 0.15);
 }
+
+/* footer styles */
+.footer-flex{
+    display: flex;
+}
+.footer-description{
+    text-align: center;
+}
+.footer-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer-container{
+    background-color: rgba(198, 228, 214, 1);
+    margin: 0 200px;
+    padding: 20px;
+}
+.textare{
+    align-items: center;
+}
+.last-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.footer-icons{
+    text-align: center;
+}
