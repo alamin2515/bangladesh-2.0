@@ -12,11 +12,14 @@
     display: flex;
     justify-content: space-between;
     margin: 0 150px;
-    text-decoration: none;
-    text-align: center;
+}
+.nav-button{
+    /* text-align: center; */
+    /* background-color: #006A50; */
+    /* color: #FFFFFF; */
 }
 .button-primary{
-    text-align: center;
+    text-align: center; 
     background-color: #006A50;
     color: #FFFFFF;
     font-size: 18px;
@@ -26,11 +29,11 @@
 
 .btn-primary{
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: #006A50;
     border-color: #006A50;
-    width: 116px;
-    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /* Banner styles */
